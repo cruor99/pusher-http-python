@@ -8,9 +8,9 @@ import requests
 import sys
 import os
 
-if sys.version_info < (3,):
-    import urllib3.contrib.pyopenssl
-    urllib3.contrib.pyopenssl.inject_into_urllib3()
+#if sys.version_info < (3,):
+#    import urllib3.contrib.pyopenssl
+#    urllib3.contrib.pyopenssl.inject_into_urllib3()
 
 CERT_PATH = os.path.dirname(os.path.abspath(__file__)) + '/cacert.pem'
 
