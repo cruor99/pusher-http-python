@@ -36,7 +36,6 @@ setup(
         'six',
         'requests>=2.3.0',
         'urllib3',
-        'ndg-httpsclient',
         'pyasn1'
     ],
 
